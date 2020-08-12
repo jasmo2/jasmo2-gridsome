@@ -18,12 +18,14 @@
   </Layout>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+<script lang='ts'>
+  import Vue from "vue"
+
+  export default Vue.extend({
+    metaInfo: {
+      "title": 'it is working'
+    }
+  })
 </script>
 
 <style>

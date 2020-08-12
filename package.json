@@ -4,9 +4,13 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "update-refs": "node update-refs.js development && git add ."
   },
   "dependencies": {
+    "@alariclg/gridsome-source-prismic": "github:alariclg/gridsome-source-graphql-prismic",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
