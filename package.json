@@ -4,9 +4,11 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "update-refs": "node update-refs.js development && git add ."
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
